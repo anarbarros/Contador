@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+* {
+  margin: 0; padding: 0;
+  
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(-45deg, rgb(162, 105, 137), #2ec264, #52bd98, #d3d775   );
+  background-size: 400% 400%; 
+  animation: backgroundTransition 6s ease-in-out  infinite;
+  position: relative;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+p { text-transform: uppercase;
+  letter-spacing: 2px;
+
+}
+
+button {
+    
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid lightcoral;
+   
+    color: lightcoral;
+    font-size: 16pt;
+    font-weight: 400;
+    text-align: center;
+}
+
+#counter {
+  display: flex;
+}
+
+#currentNumber {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  font-size: 16pt;
+}
+
+
+
+
+@keyframes backgroundTransition {
+  0% {
+    background-position: 0% 80% ;
+  }
+  50% {
+    background-position: 80% 100% ;
+  }
+  100% {
+    background-position: 0% 90%;
+  } }
